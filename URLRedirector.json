@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "description": "lanzou",
+      "origin": ".+\\.lanzou[a-z]\\.com/(.+)",
+      "exclude": "pan.lanzouo.com|developer[0-9]?.lanzou[a-z].com|i[0-9]{2}.lanzou[a-z].com",
+      "methods": [],
+      "types": [],
+      "target": "https://pan.lanzouo.com/$1",
+      "example": "https://aaa.lanzous.com/XXX",
+      "enable": true,
+      "process": ""
+    }
+  ]
+}
